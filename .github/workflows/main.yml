@@ -3,6 +3,10 @@ name: Docker Image
 on:
   push:
     branches: [main]
+
+permissions:
+  packages: write
+
 jobs:
   build_image:
     runs-on: ubuntu-latest
