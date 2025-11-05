@@ -4,3 +4,4 @@ node_modules
 biome.json
 Dockerfile
 docker-compose.yml
+ReadMe.md
